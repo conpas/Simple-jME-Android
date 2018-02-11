@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.github.nifty-gui:nifty-default-controls:1.4.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-default-controls/1.4.2/8341ac10b15bd07d4e53e90ebbde08a1d3494076/nifty-default-controls-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-default-controls/1.4.2/78991bed48a4cabf93bac0188cbf5c40ef3f06d0/nifty-default-controls-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

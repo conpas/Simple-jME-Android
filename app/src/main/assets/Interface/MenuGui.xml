@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nifty>
+    <useControls filename="nifty-default-controls.xml" />
+    <useStyles filename="nifty-default-styles.xml" />
+    <screen controller="con.utk.MenuState" id="start">
+        <layer childLayout="center" id="GLayer1">
+            <panel style="nifty-panel" align="center" childLayout="vertical" height="88%"
+                id="q" padding="18px,28px,28px,16px" valign="center" width="80%">
+                <effect>
+                    <onStartScreen name="move" direction="left" factor="3.5" inherit="true"
+                        length="250" mode="in" startDelay="100" timeType="exp" />
+                    <onEndScreen name="move" direction="left" factor="3.5" inherit="true" length="250"
+                        mode="out" timeType="exp" />
+                </effect>
+                <panel childLayout="vertical" height="20%" id="GPanel12" width="100%">
+                    <text style="base-font" childLayout="vertical" font="Interface/my.fnt" hintText="Exit"
+                        id="ocki" text="0" />
+                </panel>
+                <panel childLayout="vertical" height="60%" id="GPanel122" width="100%" />
+
+                <panel childLayout="horizontal" height="20%" id="GPanel412" width="100%">
+                    <panel backgroundColor="#434354" childLayout="vertical" height="80px"
+                        id="GPanel123" width="40%">
+
+                        <text style="base-font" childLayout="vertical" font="Interface/my.fnt" hintText="Exit"
+                            id="game" text="game">
+                            <interact onClick="game()" />
+                        </text>
+                    </panel>
+                    <panel childLayout="vertical" height="80px" id="GPanel124" width="20%"></panel>
+                    <panel backgroundColor="#434354" childLayout="vertical" height="80px"
+                        id="GPanel125" width="40%">
+                        <text style="base-font" childLayout="vertical" font="Interface/my.fnt" hintText="Exit"
+                            id="exit" text="Menu">
+                            <interact onClick="menu()" />
+                        </text>
+                    </panel>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+    <screen controller="con.utk.MenuState" id="menu">
+        <layer childLayout="center" id="GLayer2">
+            <panel style="nifty-panel" align="center" childLayout="vertical" height="58%"
+                id="GPanel2" padding="18px,28px,28px,16px" valign="center" width="55%">
+                <effect>
+                    <onStartScreen name="move" direction="top" factor="3.5" inherit="true"
+                        length="250" mode="in" startDelay="100" timeType="exp" />
+                    <onEndScreen name="move" direction="top" factor="3.5" inherit="true" length="250"
+                        mode="out" timeType="exp" />
+                </effect>
+                <panel backgroundColor="#434354" childLayout="vertical" height="20%" id="GPanel123"
+                    width="100%">
+                    <interact onClick="menu()" />
+                    <text style="base-font" childLayout="vertical" font="Interface/my.fnt" hintText="Exit"
+                        id="exit1" text="menu here">
+                        <interact onClick="start()" />
+                    </text>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+    <screen controller="con.utk.MenuState" id="end">
+        <layer childLayout="center" id="GLayer3">
+            <panel style="nifty-panel" align="center" childLayout="vertical" height="88%"
+                id="q" padding="18px,28px,28px,16px" valign="center" width="80%">
+                <panel childLayout="vertical" height="20%" id="GPanel12" width="100%">
+                    <text style="base-font" childLayout="vertical" font="Interface/my.fnt" hintText="Exit"
+                        id="ockxxxi" text="end" />
+
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+</nifty>

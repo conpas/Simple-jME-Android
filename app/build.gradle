@@ -2,10 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
-
+    buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "org.jmonkeyengine.simple_jme_android"
+        applicationId "con.utk"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
@@ -18,27 +17,42 @@ android {
         }
     }
 }
-
-ext.jmeVersion = "[3.1,)"
-
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+ext.jmeVersion = "[3.2,)"
+repositories {
+    mavenCentral()
+    maven{
+        url 'http://nifty-gui.sourceforge.net/nifty-maven-repo'
+    }
+}
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+   // testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-
     compile "org.jmonkeyengine:jme3-android:$jmeVersion"
     compile "org.jmonkeyengine:jme3-android-native:$jmeVersion"
     compile "org.jmonkeyengine:jme3-core:$jmeVersion"
     compile "org.jmonkeyengine:jme3-effects:$jmeVersion"
     compile "org.jmonkeyengine:jme3-jogg:$jmeVersion"
     compile "org.jmonkeyengine:jme3-plugins:$jmeVersion"
+    compile "org.jmonkeyengine:jme3-niftygui:$jmeVersion"
+    compile "org.jmonkeyengine:jme3-terrain:$jmeVersion"
+    //compile "org.jmonkeyengine:jme3-testdata:$jmeVersion"
+
+    // compile 'lessvoid:nifty:1.4.1'
+
+    // compile 'lessvoid:nifty-default-controls:1.4.1'
+
+    // compile 'lessvoid:nifty-style-black:1.4.1'
 
     // below is only when using Lemur as UI
     //compile 'com.simsilica:lemur:[1.6,)'
-
     // below is only when using Physics libs
-    //compile "org.jmonkeyengine:jme3-bullet:$jmeVersion"
-    //compile "org.jmonkeyengine:jme3-bullet-native-android:$jmeVersion"
-    //compile "org.jmonkeyengine:jme3-terrain:$jmeVersion"
+   compile "org.jmonkeyengine:jme3-bullet:$jmeVersion"
+    compile "org.jmonkeyengine:jme3-bullet-native-android:$jmeVersion"
 
 }

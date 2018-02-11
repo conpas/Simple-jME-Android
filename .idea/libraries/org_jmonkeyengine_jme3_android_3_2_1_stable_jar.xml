@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.jmonkeyengine:jme3-android:3.2.1-stable@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-android/3.2.1-stable/b0f277c63ebda646c1f493a6e4be10c75673a7b3/jme3-android-3.2.1-stable.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-android/3.2.1-stable/8c9fa208597ed1a5fcb0c498ac5c584dcb2abe8/jme3-android-3.2.1-stable-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

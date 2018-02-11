@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.github.nifty-gui:nifty-style-black:1.4.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-style-black/1.4.2/c7348dae1ed076cb88488410bade67f632c23792/nifty-style-black-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-style-black/1.4.2/6593187c986b8855bf4ca4960c229e32e31186f8/nifty-style-black-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

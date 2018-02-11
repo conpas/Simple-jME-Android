@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.jmonkeyengine:jme3-bullet-native-android:3.2.1-stable@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-bullet-native-android/3.2.1-stable/2cb904ee3d39ef9083b1b16144ccc85012f1c802/jme3-bullet-native-android-3.2.1-stable.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-bullet-native-android/3.2.1-stable/4134e7f2d920f48c9951c6fd3a152612d3beeda4/jme3-bullet-native-android-3.2.1-stable-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

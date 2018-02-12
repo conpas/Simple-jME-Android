@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/013df2eeaf3de3a86f73e1b469763490/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/c27a2ac4dbb98ebc729a86dbc5125683/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:3:5-22
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/013df2eeaf3de3a86f73e1b469763490/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/013df2eeaf3de3a86f73e1b469763490/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/c27a2ac4dbb98ebc729a86dbc5125683/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/c27a2ac4dbb98ebc729a86dbc5125683/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:10:9-40
+activity#con.utk.MainActivity
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:screenOrientation
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:14:13-49
+	android:launchMode
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:13:13-44
+	android:name
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:12:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/013df2eeaf3de3a86f73e1b469763490/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/013df2eeaf3de3a86f73e1b469763490/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/c27a2ac4dbb98ebc729a86dbc5125683/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/conpas/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/c27a2ac4dbb98ebc729a86dbc5125683/AndroidManifest.xml:20:5-43
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/AndroidManifest.xml

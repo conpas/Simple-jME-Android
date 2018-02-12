@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/smartmonkey.png",
+        "source": "/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/res/mipmap-xxhdpi/smartmonkey.png"
+    },
+    {
+        "merged": "/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

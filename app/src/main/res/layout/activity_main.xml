@@ -9,10 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="con.utk.MainActivity">
 
+
     <fragment
+        android:id="@+id/fragment"
+        android:name="con.utk.JmeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="con.utk.JmeFragment"
-        android:id="@+id/fragment"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+
+        />
+
+
+
+
+
+
 </RelativeLayout>

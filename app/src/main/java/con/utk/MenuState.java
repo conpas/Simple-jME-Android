@@ -11,6 +11,7 @@ import com.jme3.scene.shape.Box;
 import de.lessvoid.nifty.Nifty;
 import de.lessvoid.nifty.NiftyEventSubscriber;
 import de.lessvoid.nifty.controls.ButtonClickedEvent;
+import de.lessvoid.nifty.controls.CheckBox;
 import de.lessvoid.nifty.elements.render.TextRenderer;
 import de.lessvoid.nifty.screen.Screen;
 import de.lessvoid.nifty.screen.ScreenController;
@@ -19,8 +20,6 @@ import de.lessvoid.nifty.screen.ScreenController;
  * Created by conpas on 2/9/18.
  */
 public class MenuState extends ConpasAbstractState implements ScreenController {
-
-
 
     public MenuState(Main app) {
         super(app);
@@ -51,6 +50,7 @@ public class MenuState extends ConpasAbstractState implements ScreenController {
 
     @Override
     public void initialize(AppStateManager stateManager, Application app) {
+       this.setProgress(50);
         super.initialize(stateManager, app);
         Box b = new Box(1, 1, 1);
         Geometry geom = new Geometry("Box", b);
@@ -66,12 +66,12 @@ public class MenuState extends ConpasAbstractState implements ScreenController {
         nifty.fromXml("Interface/MenuGui.xml", "start", this);
         app.getGuiViewPort().addProcessor(niftyDisplay);
         //// getRootNode().attachChild(geom);
+        this.setProgress(100);
     }
 
     @Override
     public void update(float tpf) {
         super.update(tpf);
-
     }
 
     public void menu() {
@@ -80,14 +80,24 @@ public class MenuState extends ConpasAbstractState implements ScreenController {
     }
 
     public void start() {
-        nifty.getScreen("start").findElementByName("ocki").getRenderer(TextRenderer.class).setText("" + System.nanoTime());
+        //nifty.getScreen("start").findElementByName("ocki").getRenderer(TextRenderer.class).setText("" + System.nanoTime());
         nifty.gotoScreen("start");
+        System.out.print("gssame");
+    }
 
+    public void soundCheck() {
+        Class eee = CheckBox.class;
+        CheckBox nn = (CheckBox) nifty.getCurrentScreen().findControl("sound", eee);
+        nn.setChecked(!nn.isChecked());
     }
 
     public void game() {
-        new GameState( app);
+        new GameState(app);
         System.out.print("game");
+    }
+
+    public void end() {
+        System.exit(0);
     }
 
     @Override

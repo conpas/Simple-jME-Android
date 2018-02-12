@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.android/build-cache/8570d154fcfa7fc37d8b96fd4b92af3a9d21309c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/classes_8e2492e094c81824724c5f92952fd25b2f609b46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-jogg/3.1.0-stable/faae0cd4d11cdc3a61168cd46de13200bb5d010c/jme3-jogg-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="faae0cd4d11cdc3a61168cd46de13200bb5d010c">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-jogg-3.1.0-stable_fcf7c9dc756b1df75b9dd238419ad7beea596810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/de.jarnbjo/j-ogg-all/1.0.0/c74a3afb9ec805502baf9d0f0f15d7adaf84088b/j-ogg-all-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c74a3afb9ec805502baf9d0f0f15d7adaf84088b">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/j-ogg-all-1.0.0_f765d9d32a41c3e679902f8f34c1c90300909f48.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9e1476fda963c070302bf54d5a43a5707356c796/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="212d3bd39f9d25bcaabcc60667a1dedee0e05840">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2e0bc68a8adf0f772b9cb0ff92a2dd35db45046e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_84591f26bb14e9b8a18728cdb3ca369f96abd75c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-niftygui/3.1.0-stable/bdc6bfcc38b30aed1396791f7c40777f600b33a2/jme3-niftygui-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bdc6bfcc38b30aed1396791f7c40777f600b33a2">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-niftygui-3.1.0-stable_4ceafd51d3413e7c86585e08203e250c5a1b928c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-bullet/3.1.0-stable/c10850bf2a76d25f51ed8714fc293c5239145261/jme3-bullet-3.1.0-stable.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c10850bf2a76d25f51ed8714fc293c5239145261">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jme3-bullet-3.1.0-stable_248743ff399ed8fc818218ad3fc43ff95897161d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.android/build-cache/8570d154fcfa7fc37d8b96fd4b92af3a9d21309c/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_600ec396e0c73d3971237dcf79932020d3dc7b43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.android/build-cache/dfb4f2d0f88c3757a5e967cbe041b068c69759aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/classes_4c768c0b7a2710813db4b1fc148f0019aac7ea9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty/1.4.2/f2db67ed8abc1d7b71847dd4415acd024d0b636c/nifty-1.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2db67ed8abc1d7b71847dd4415acd024d0b636c">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/nifty-1.4.2_8587448a9a1790b695cf8e8354ee119b211941f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.2/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jsr305-2.0.2_5524cb6c9b260c6a073b4c3ba61e94bfa19fcb2f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-terrain/3.1.0-stable/1ea38ff6ed3d7e020f7c4198357070dad259ee06/jme3-terrain-3.1.0-stable.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ea38ff6ed3d7e020f7c4198357070dad259ee06">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jme3-terrain-3.1.0-stable_6d6a50b6faaaf3b8cac9358c9ded3179d098466b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-effects/3.1.0-stable/f0b441aa807fdf3ee9726deba76cd3c5b96e8851/jme3-effects-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0b441aa807fdf3ee9726deba76cd3c5b96e8851">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-effects-3.1.0-stable_a60dcd99f671e723ee5c5e51995fd457d668a3ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-default-controls/1.4.2/8341ac10b15bd07d4e53e90ebbde08a1d3494076/nifty-default-controls-1.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8341ac10b15bd07d4e53e90ebbde08a1d3494076">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/nifty-default-controls-1.4.2_ea4194e054db14d90ba6f55e4d3e987a767c2d81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-plugins/3.1.0-stable/99bf1e3e874a0f2634e2c73af42625ffa4433877/jme3-plugins-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99bf1e3e874a0f2634e2c73af42625ffa4433877">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-plugins-3.1.0-stable_bc4ca6c6a5897e58829d53c3ef87b2f770f908fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-core/3.1.0-stable/cfe061b23799eeda04adfcc01802c89b88a77f59/jme3-core-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cfe061b23799eeda04adfcc01802c89b88a77f59">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-core-3.1.0-stable_c8dde88137c7c766af2a7b60ef8c8ef3ee99f853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/conpas/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-android/3.1.0-stable/ddd91d977a7b42224800219ddc9fcdd389cd3cd/jme3-android-3.1.0-stable.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ddd91d977a7b42224800219ddc9fcdd389cd3cd">
+        <dex dex="/home/conpas/AndroidStudioProjects/Simple-jME-Android/app/build/intermediates/pre-dexed/debug/jme3-android-3.1.0-stable_6ef28292f9afeb527553d364fcce1ffb47daccf1.jar" />
+    </item>
+
+</items>

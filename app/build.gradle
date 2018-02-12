@@ -40,12 +40,12 @@ dependencies {
     compile "org.jmonkeyengine:jme3-jogg:$jmeVersion"
     compile "org.jmonkeyengine:jme3-plugins:$jmeVersion"
     compile "org.jmonkeyengine:jme3-niftygui:$jmeVersion"
-    compile "org.jmonkeyengine:jme3-terrain:$jmeVersion"
+    //compile "org.jmonkeyengine:jme3-terrain:$jmeVersion"
     //compile "org.jmonkeyengine:jme3-testdata:$jmeVersion"
 
     // compile 'lessvoid:nifty:1.4.1'
 
-    // compile 'lessvoid:nifty-default-controls:1.4.1'
+    //compile 'lessvoid:nifty-default-controls:1.4.1'
 
     // compile 'lessvoid:nifty-style-black:1.4.1'
 

@@ -67,7 +67,6 @@ public class GameState extends ConpasAbstractState {
         mat.setTexture("ColorMap", app.getAssetManager().loadTexture("Textures/Monkey.png"));
         geom.setMaterial(mat);
         getRootNode().attachChild(geom);
-
         bulletAppState = new BulletAppState();
         bulletAppState.setThreadingType(BulletAppState.ThreadingType.PARALLEL);
         //   bulletAppState.setEnabled(false);
@@ -75,7 +74,6 @@ public class GameState extends ConpasAbstractState {
         bullet = new Sphere(32, 32, 0.4f, true, false);
         bullet.setTextureMode(Sphere.TextureMode.Projected);
         bulletCollisionShape = new SphereCollisionShape(0.4f);
-
         brick = new Box(brickWidth, brickHeight, brickDepth);
         brick.scaleTextureCoordinates(new Vector2f(1f, .5f));
         //bulletAppState.getPhysicsSpace().enableDebug(assetManager);
@@ -128,7 +126,6 @@ public class GameState extends ConpasAbstractState {
     public void initFloor() {
         Box floorBox = new Box(10f, 0.1f, 5f);
         floorBox.scaleTextureCoordinates(new Vector2f(3, 6));
-
         Geometry floor = new Geometry("floor", floorBox);
         floor.setMaterial(mat3);
         // floor.setShadowMode(ShadowMode.Receive);
@@ -144,13 +141,11 @@ public class GameState extends ConpasAbstractState {
         key.setGenerateMips(true);
         Texture tex =app.getAssetManager().loadTexture(key);
         mat.setTexture("ColorMap", tex);
-
         mat2 = new Material(app.getAssetManager(), "Common/MatDefs/Misc/Unshaded.j3md");
         TextureKey key2 = new TextureKey("Textures/Rock.PNG");
         key2.setGenerateMips(true);
         Texture tex2 = app.getAssetManager().loadTexture(key2);
         mat2.setTexture("ColorMap", tex2);
-
         mat3 = new Material(app.getAssetManager(), "Common/MatDefs/Misc/Unshaded.j3md");
         TextureKey key3 = new TextureKey("Textures/Pond.jpg");
         key3.setGenerateMips(true);
@@ -172,7 +167,6 @@ public class GameState extends ConpasAbstractState {
     }
 
     protected void initCrossHairs() {
-
     }
 
     private ActionListener actionListener = new ActionListener() {
@@ -192,8 +186,14 @@ public class GameState extends ConpasAbstractState {
             }
         }
     };
-    public  void backButtonPressed (){
+    public  void backButtonPressed (){new MenuState(app);}
 
-
-    };
+    @Override
+    public void cleanup() {
+        bulletAppState.cleanup();
+        app.getStateManager().detach(bulletAppState  );
+        app.getInputManager().removeListener( actionListener );
+        bulletAppState.getPhysicsSpace();
+        super.cleanup();
+    }
 }
